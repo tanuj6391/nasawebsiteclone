@@ -1,0 +1,126 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #000;
+    color: #fff;
+}
+
+
+header {
+    background-color: #000;
+    padding: 20px;
+    display: flex; 
+   justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    
+}
+
+header .logo img {
+    width: 100px;
+    height: auto;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header nav ul li {
+    margin:  20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #ff6600;
+}
+
+
+.hero {
+    background: url('328637-nature-landscape-Deep_Space-galaxy-stars-universe-Hubble_Deep_Field-NASA (1).jpg.crdownload') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    height: 400px;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.cta-button:hover {
+    background-color: #ff9933;
+}
+
+
+.about {
+    padding: 40px 20px;
+    background-color: #111;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+
+.news {
+    padding: 40px 20px;
+    background-color: #222;
+}
+
+.news h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.news ul {
+    list-style-type: none;
+}
+
+.news ul li {
+    margin: 10px 0;
+}
+
+.news ul li a {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+.news ul li a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: #000;
+    color: #888;
+    text-align: center;
+    padding: 20px;
+}
